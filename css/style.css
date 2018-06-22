@@ -1,0 +1,214 @@
+@charset "UTF-8";
+.wrapper {
+  margin: 0 auto;
+}
+.contents {
+  background-color: #fff;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.contents-inner {
+  width: 1100px;
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: right;
+}
+.contents-btn {
+  background-color: #74cfae;
+  color: #fff;
+  padding: 14px 12px;
+  font-size: 12px;
+  margin: 15px 0 20px 0;
+  display: inline-block;
+}
+.main-theme {
+  background-color: #f2f2f2;
+}
+.main-theme-text {
+  font-size: 90px;
+  color: #74cfae;
+  padding: 250px 0 0 0;
+  text-align: center;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(http://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+.main-theme-text-sub {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #c0c0c0;
+  padding: 0 0 250px 0;
+  text-align: center;
+}
+.contents-text {
+  background-color: #74cfae;
+  color: #fff;
+  font-size: 0;
+  text-align: center;
+}
+.contents-text-inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+.phone-img-box {
+  padding: 50px 0 0 0;
+  width: 40%;
+  display: inline-block;
+}
+.contents-text-theme {
+  width: 55%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 80px;
+}
+.theme-text {
+  font-size: 24px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Raleway Light'), local('Raleway-Light'), url(http://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwIYqWqhPANqczVsq4A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+.theme-text-sub {
+  font-size: 20px;
+  margin-top: 35px;
+}
+.pictures-box {
+  background-color: #f2f2f2;
+}
+.pictures-box-title-text {
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+  color: #c0c0c0;
+  padding: 60px 0 40px 0;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Raleway Light'), local('Raleway-Light'), url(http://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwIYqWqhPANqczVsq4A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+.pictures-box-img {
+  font-size: 0;
+  background-color: #f2f2f2;
+}
+.pictures-box-img-top {
+  width: 1100px;
+  margin: 0 auto;
+}
+.picture-top {
+  margin-bottom: 80px;
+  margin-left: 100px;
+}
+.picture-top:first-child {
+  margin-left: 0;
+}
+.pictures-box-img-bottom {
+  width: 1100px;
+  margin: 0 auto;
+}
+.picture-bottom {
+  margin-right: 100px;
+}
+.picture-bottom:last-child {
+  background-color: #f2f2f2;
+  margin-right: 0;
+}
+.pictures-text {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+.pictures-box-inner {
+  width: 50%;
+  display: inline-block;
+}
+.pictures-box-inner-text {
+  font-size: 20px;
+  color: #c0c0c0;
+  padding: 90px 90px 70px 0;
+  text-align: center;
+}
+.email-btn {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 90px;
+}
+.email-btn-text {
+  font-size: 12px;
+  padding: 14px 20px;
+  background-color: #74cfae;
+  color: #fff;
+  display: inline-block;
+}
+.ourskills {
+  background-color: #4e4e4e;
+  text-align: center;
+  padding: 70px 0 100px 0;
+}
+.ourskills-title {
+  margin-bottom: 50px;
+}
+.ourskills-title-text {
+  color: #fff;
+  font-size: 24px;
+}
+.ourskills-image {
+}
+.image-data {
+  margin-right: 180px;
+  display: inline-block;
+}
+.image-data:last-child {
+  margin-right: 0;
+}
+.image-data-text {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+.contents-sns {
+  background-color: #f2f2f2;
+  padding: 200px 0;
+  text-align: center;
+}
+.icons {
+  background-color: #f2f2f2;
+  display: inline-block;
+  cursor: pointer;
+  width: 185px;
+  text-align: center;
+}
+.icons:hover {
+  background-color: #fff;
+  transition: all .3s;
+}
+.fa {
+  opacity: 0.7;
+  color: #74cfae;
+}
+.fa:hover {
+  opacity: 1;
+  transition: all .3s;
+}
+.contents-bottom {
+  background-color: #74cfae;
+  height: 60px;
+}
+.footer-inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+.contents-bottom-text {
+  background-color: #74cfae;
+  color: #fff;
+  font-size: 12px;
+  padding: 20px 0 25px 0;
+  text-align: right;
+}
