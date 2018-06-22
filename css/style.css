@@ -1,10 +1,11 @@
 @charset "UTF-8";
+
 .wrapper {
   margin: 0 auto;
 }
 .contents {
   background-color: #fff;
-  height: 75px;
+  height: 80px;
   position: fixed;
   top: 0;
   left: 0;
@@ -14,15 +15,32 @@
   width: 1100px;
   margin: 0 auto;
   background-color: #fff;
-  text-align: right;
 }
-.contents-btn {
+.bolt {
+  text-align: left;
+  color: #4e4e4e;
+  display: inline-block;
+  padding: 15px 0;
+  float: left;
+}
+.contact {
+  text-align: right;
+  float: right;
+}
+.contact-btn {
   background-color: #74cfae;
   color: #fff;
   padding: 14px 12px;
   font-size: 12px;
-  margin: 15px 0 20px 0;
   display: inline-block;
+  vertical-align: top;
+  margin-top: 15px;
+  transition: all .3s;
+  opacity: 0.7;
+}
+.contact-btn:hover {
+  transition: all .3s;
+  opacity: 1;
 }
 .main-theme {
   background-color: #f2f2f2;
@@ -34,14 +52,11 @@
 }
 .main-theme-text {
   font-size: 90px;
+  font-weight: 700;
   color: #74cfae;
   padding: 250px 0 0 0;
   text-align: center;
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(http://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: "PT Sans";
 }
 .main-theme-text-sub {
   margin-top: 20px;
@@ -150,7 +165,14 @@
   background-color: #74cfae;
   color: #fff;
   display: inline-block;
+  opacity: 0.7;
+  transition: all .3s;
 }
+.email-btn-text:hover {
+  opacity: 1;
+  transition: all .3s;
+}
+
 .ourskills {
   background-color: #4e4e4e;
   text-align: center;
@@ -189,18 +211,14 @@
   cursor: pointer;
   width: 185px;
   text-align: center;
+  opacity: 0.7;
+  color: #74cfae;
+  transition: all .3s;
 }
 .icons:hover {
   background-color: #fff;
   transition: all .3s;
-}
-.fa {
-  opacity: 0.7;
-  color: #74cfae;
-}
-.fa:hover {
   opacity: 1;
-  transition: all .3s;
 }
 .contents-bottom {
   background-color: #74cfae;
