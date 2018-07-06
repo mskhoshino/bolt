@@ -130,7 +130,7 @@ font-family: 'Raleway';
 .work-title-btn:nth-child(1),:nth-child(4) {
   margin-left: 0;
 }
-.work-title-btn:nth-child(3) {
+.work-title-btn:nth-child(-n+3) {
   margin-bottom: 80px;
 }
 .work-bottom-inner {
@@ -141,11 +141,11 @@ font-family: 'Raleway';
   font-size: 20px;
   color: #c0c0c0;
   display: inline-block;
-  width: 40%;
+  width: 55%;
 }
 .email-btn {
   display: inline-block;
-  width: 55%;
+  width: 40%;
   vertical-align: top;
 }
 .email-btn-text {
@@ -190,6 +190,7 @@ font-family: 'Raleway';
   color: #fff;
   text-align: center;
   margin-top: 10px;
+  font-family: "PT Sans";
 }
 .icons-sns {
   background-color: #f2f2f2;
@@ -224,4 +225,5 @@ font-family: 'Raleway';
   color: #fff;
   font-size: 12px;
   text-align: right;
+  font-family: "PT Sans";
 }
