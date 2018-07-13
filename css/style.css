@@ -55,6 +55,9 @@ font-family: 'Raleway';
 .checked-contact {
   display: none;
 }
+.drawer {
+  display: none;
+}
 .bolt-title {
   background-color: #f2f2f2;
 }
@@ -342,14 +345,12 @@ font-family: 'Raleway';
   }
   .image-data:nth-child(-n+3) {
     margin-bottom: 50px;
-}
-  .icons-sns {
-    padding-right: 15px;
-  }
-  .icons-sns-list {
-    padding: 50px 0 50px 15px;
   }
   .icon {
+    padding: 0 15px;
     display: block;
+  }
+  .icons-sns-list:nth-child(4n+1) {
+    padding: 50px 0;
   }
 }
